@@ -1,7 +1,7 @@
 html, body {
     margin: 0;
     padding: 0;
-    background: rgb(202, 216, 202);
+    background: rgb(193, 197, 193);
     height: 110vh;
     overflow: hidden;
 }
@@ -15,8 +15,8 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: rgb(30, 59, 80);
     height: 10vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: whitesmoke;
     padding: 20px;
     box-sizing: border-box;
@@ -37,18 +37,25 @@ section {
     box-sizing: border-box;
     padding: 40px;
 }
+.section-header{
+   font-family: Kaushan;
+    text-transform: uppercase;
+}
+
+.ingredient-section-subheader{    
+padding-top: 1rem;
+font-family: Permanent Marker;
+color: rgb(37, 86, 121);
+}
 
 #ingredient-section {
-    background: rgb(158, 180, 158);
+    background: rgb(141, 197, 141);
     height: 100%;
 }
 
-.ingredient-section-header h1 {
-    text-transform: uppercase;
+.section-header h1 {
+    
     margin: 0;
-}
-.ingredient-section-header h2 {
-    margin-top: 0;
 }
 
 #search-ingredient {
@@ -132,9 +139,7 @@ footer {
         height: 10vh;
     }
 
-    .results-section {
-        
-    }
+   
 
     #ingredient-section {
         height: auto;
@@ -154,8 +159,7 @@ footer {
         height: 10vh;
     }
 
-    .results-section {
-    }
+    
 
     #ingredient-section {
         height: auto;
